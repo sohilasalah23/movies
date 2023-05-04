@@ -1,0 +1,100 @@
+body{
+    background-color: black;
+}
+#slide-nav{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -250px;
+    z-index: 999 !important;
+}
+#slide-nav .nav-contianer{
+    top: 0;
+    left: 0px;
+    width: 250px;
+    height: 100vh;
+    z-index: 999;
+    background-color: #000;
+    transition: all 0.6s ease;
+}
+
+#slide-nav .nav-contianer li{
+    list-style-type: none;  
+    cursor: pointer;    
+
+}
+#slide-nav #openbtn{
+    cursor: pointer;    
+}
+#slide-nav .nav-bar{
+    background-color: white;
+}
+#slide-nav  a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+}
+#slide-nav  a:hover , i:hover{
+    color:rgba(214, 46, 51, 0.4)
+}
+.menu{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.icon{
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.close {
+    transform: translateX(-100%) ;
+}
+.open {
+    transform: scale(1) ;
+}
+.web-info{
+    position: absolute;
+bottom: 50px;
+/* left: 20px; */
+}
+/* section one  */
+.form-control{   
+     background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,.7);
+    border-radius: 0;
+    color: #fff;
+    font-weight: 800;
+}
+input::placeholder{
+    color: rgb(182, 182, 182) !important;
+    font-weight: normal;
+    text-align: center;
+}
+.form-control:focus{
+    background-color: transparent ;
+}
+.layer{
+    background-color: rgba(255,255,255,.7);
+    transform: translateY(100%);
+}
+
+.movie{
+    overflow: hidden;
+    transition: all 1s;
+
+}
+.movie:hover .layer{
+    top: 0;
+    transition: all 1s;
+    transform: translateY(0);
+
+
+}
+
+#openbtn:hover{
+    color: #000;
+}
+
+

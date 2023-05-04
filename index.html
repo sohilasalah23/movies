@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+      <div id="slide-nav" class="d-flex ">
+                <div class="nav-contianer px-3   ">
+                  <div>
+                    <ul>
+                        <li class="my-4 item1" data-catagory="Nowplaying" >   <a  data-catagory="Nowplaying" >Now playing</a></li>
+                    <li class="my-4 item2"   >   <a data-catagory="Popular" >Popular</a>  </li>
+                    <li class="my-4 item3" >    <a  data-catagory="Top Rated" >Top Rated</a>        </li>
+                    <li class="my-4 item4"  >       <a data-catagory="Trending">Trending</a>  </li>
+                    <li class="my-4 item5"  >       <a data-catagory="Upcoming"  >Upcoming</a>  </li>
+                    <li class="my-4 item6" >       <a  href="#Contact">Contact Us</a>  </li>
+                    </ul>
+                  </div>
+
+                  <div class="web-info  ">
+                  <div class="icon-social d-flex">
+                    <div class="item-icon text-white mx-2">
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                    <div class="item-icon text-white mx-2">
+                      <i class="fa-brands fa-twitter"></i>
+                    </div>  
+                    <div class="item-icon text-white mx-2">
+                      <i class="fa-solid fa-globe"></i>
+                    </div>
+                  </div>
+                  <div class="text-white">
+                    <p>Copyright Â© 2019 All Rights Reserved.</p>
+                  </div>
+                </div>
+                </div>
+                <div class="nav-bar  vh-100 text-black text-center position-relative start-0  " >
+                    <img src="img/img1.png" class="w-50 my-3 align-content-start " alt="">
+                    <div class=" menu position-absolute " >
+                      <i class="fa-solid fa-align-justify fs-4"  id="openbtn"></i>
+                     <i class="fa-solid fa-xmark my-3 d-flex justify-content-end  fs-4 p-2 d-none"  id="closebtn"></i>
+
+                    </div>
+                    <div class=" icon position-absolute ">
+                        <div><i class="fa-solid fa-globe"></i></div>
+                        <div><i class="fa-solid fa-share-nodes"></i></div>
+                    </div>
+
+                </div>
+              
+
+            </div>
+    
+    <!-- website -->
+<section id="" class="pt-5">
+    <div class="container w-75">
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <input id="allMovies" class="form-control mb-5  " placeholder="get movies by word...">
+            </div>
+            <div class="col-md-6">
+                <input id="search" class="form-control mb-5 " placeholder="search...">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section id="default-page" class="">
+    <div class="container w-75">
+        <div class="row" id="rowdata">
+        
+        </div>
+
+    </div>
+</section>
+
+
+
+<!-- contect section  -->
+
+<section id="Contact">
+    <div class="container w-75">
+        <h2 class="text-light my-5">ContacUs...</h2>
+        <div class="row">
+            <div class="col-md-6">
+          <div class="form-group">
+            <input class="form-control" id="username" placeholder="Enter Your Name">
+              <div class="alert alert-danger d-none" id="namealert" role="alert" style="display: block;">
+                Your Name is not valid
+              </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <input class="form-control" id="useremail" placeholder="Enter Email">
+            <div class="alert alert-danger d-none" id="emailalert" role="alert">
+              entre valid email
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <input class="form-control" id="userphone" placeholder="Enter phone">
+            <div class="alert alert-danger d-none" id="phonealert" role="alert">
+              entre valid phone
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <input class="form-control" id="userage" placeholder="Enter Age">
+            <div class="alert alert-danger d-none" id="agealert" role="alert" style="display: none;">
+              entre valid Age
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <input class="form-control" type="password" id="userpassword" placeholder="Enter Password">
+            <div class="alert alert-danger d-none" id="passwordalert" role="alert">
+              entre valid password *Minimum eight characters, at least one letter and one number:*
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <input class="form-control" type="password" id="userrePassword" placeholder="Enter RePassword">
+            <div class="alert alert-danger d-none" id="repasswordalert" role="alert">
+              entre valid Repassword
+            </div>
+          </div>
+        </div>
+        </div>
+        <button type="submit" disabled="" id="submitBtn" class="btn btn-outline-danger my-3">Submit</button>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <script src="js/bootstrap.bundle.min.js"></script> -->
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
